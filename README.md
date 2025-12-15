@@ -128,5 +128,5 @@ SYNCHRONOUS-DOWN-COUNTER:
 | 8 (reset)   | 1  | 1  | 1  | 7             |
 
 
-**RESULTS**                                                                                                                            
+**RESULTS:**                                                                                                                            
 Thus the SYNCHRONOUS-UP-COUNTER and SYNCHRONOUS-DOWN-COUNTER circuits are designed and the truth tables is verified using Quartus software.
