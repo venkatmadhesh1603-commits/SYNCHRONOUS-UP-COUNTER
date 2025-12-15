@@ -28,19 +28,52 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+Connect Vcc and GND to the counter IC.
+
+Apply clock pulses to the common clock input.
+
+Enable the counter by setting the enable input HIGH.
+
+Observe the output count (Q) after each clock pulse.
+
+Verify that the count increments synchronously in binary.
 
 **PROGRAM**
+```
+module exp11(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out+1;
+end
+endmodule
+```
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
+Developed by: Sangeeth J RegisterNumber: 25016967
 
 **RTL LOGIC UP COUNTER**
+![alt text](<Screenshot 2025-12-15 142812.png>)
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![alt text](<Screenshot 2025-12-15 143602.png>)
 
 **TRUTH TABLE**
+| Clock Pulse | Q2 | Q1 | Q0 | Decimal Count |
+| ----------- | -- | -- | -- | ------------- |
+| Initial     | 0  | 0  | 0  | 0             |
+| 1           | 0  | 0  | 1  | 1             |
+| 2           | 0  | 1  | 0  | 2             |
+| 3           | 0  | 1  | 1  | 3             |
+| 4           | 1  | 0  | 0  | 4             |
+| 5           | 1  | 0  | 1  | 5             |
+| 6           | 1  | 1  | 0  | 6             |
+| 7           | 1  | 1  | 1  | 7             |
+| 8 (reset)   | 0  | 0  | 0  | 0             |
+
 
 **RESULTS**
+Thus the SYNCHRONOUS-UP-COUNTER circuit is designed and the truth tables is verified using Quartus software.
