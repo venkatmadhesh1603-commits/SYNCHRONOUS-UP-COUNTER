@@ -33,7 +33,7 @@ A Synchronous Down Counter is a digital sequential circuit in which all flip-flo
 
 ![alt text](image.png)
 
-**Procedure**
+**Procedure**                                                                                                                              
 SYNCHRONOUS-UP-COUNTER:                                                                                                                         
 Connect Vcc and GND to the counter IC.
 
