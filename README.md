@@ -86,19 +86,23 @@ endmodule
 
 ```
 
-Developed by: Sangeeth J RegisterNumber: 25016967
+Developed by: Madhesh V RegisterNumber: 25016451
 
 **RTL LOGIC UP COUNTER**
 SYNCHRONOUS-UP-COUNTER:
-![alt text](<Screenshot 2025-12-15 142812.png>)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d55b121-956f-4d19-af8e-b2ab02b34328" />
+
 SYNCHRONOUS-DOWN-COUNTER:
-![alt text](<Screenshot 2025-12-15 212318.png>)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26410254-8035-47d2-912e-68fafaf42787" />
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
 SYNCHRONOUS-UP-COUNTER:
-![alt text](<Screenshot 2025-12-15 143602.png>)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad4afbcd-a90a-4122-a018-accf43357dd2" />
+
 SYNCHRONOUS-DOWN-COUNTER:
-![alt text](<Screenshot 2025-12-15 212512.png>)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68ca289a-6f3a-47e8-a5aa-ab35920db449" />
+
 
 **TRUTH TABLE**
 SYNCHRONOUS-UP-COUNTER:
